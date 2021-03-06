@@ -1,0 +1,120 @@
+body{
+    background-color: black;
+    color: seashell;
+    font-family: Helvetica;
+     font-size: 22px; 
+    opacity: 0.9;
+    text-align: center;
+    
+}
+img{
+    overflow: hidden;
+}
+a{
+    color: seashell;
+}
+header{
+    position: fixed;
+    background-color: black;
+    z-index: 10;
+    width: 100%;
+    top:0%;
+    left: 0%;
+    
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+ width: 100%;
+ height: 69px;
+ border-bottom: 1px solid seashell;
+ border-bottom-width: 100%;
+
+}
+header h2{
+    margin-right: 10px;
+    font-size: 22px;
+    display: inline;
+    font-weight: 300;
+    justify-content: flex-end;
+    text-decoration: underline;
+    
+}
+
+.logo{
+    
+    margin-left: 10px;
+    height: 50px;
+}
+
+.bannerCont{
+    top: 62px;
+    position: relative;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mission{
+   width: 100%;
+    background-color: black;
+    position: absolute;
+    
+}
+
+ .banner{
+     margin: 0 auto;
+    
+    width: 1200px;
+    height: 700px;
+   
+}
+
+.TeaOftheMonth{
+    position: relative;
+   top: 70px;
+}
+
+ .fivethings{
+   position: relative;
+   top: 70px;
+   display: flex;
+   flex-basis: 1000px;
+   justify-content: space-around;
+   flex-wrap: wrap;
+   
+} 
+.fivethings h4{
+    margin-top: 10px;
+}
+
+.locations{
+    position: relative;
+    top: 150px;
+  /* display: flex;
+   justify-content: space-around;
+   align-items: center;
+   
+    
+    width: 1200px;
+    margin: 0 auto; */
+}
+.locations img{
+   
+    width:1200px;
+}
+.locations h2{
+    position: absolute;
+    top: 10%;
+    right: 50%;
+}
+.downtown{
+    background-color: black;
+    width: 300px;
+    /*position: absolute; */
+    
+}
+
+.east-bayside{
+    width: 300px;
+    background-color: black;
+    
+}
