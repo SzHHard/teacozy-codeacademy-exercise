@@ -97,8 +97,16 @@ header h2{
 
 .locations{
     position: relative;
+    margin: 0 auto;
+    flex-direction: column;
     top: 150px;
-  /* display: flex;
+    width: 1200px;
+    height: 500px;
+    background-image: url('img-locations-background.webp') ;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    /* display: flex;
    justify-content: space-around;
    align-items: center;
    
@@ -106,15 +114,29 @@ header h2{
     width: 1200px;
     margin: 0 auto; */
 }
-.locations img{
-   
-    width:1200px;
-}
+
 .locations h2{
-    position: absolute;
-    top: 10%;
-    right: 50%;
+
 }
+.adr{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 1200px;
+    margin-bottom: 30px;
+
+}
+
+.sqr{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+align-items: center;;
+    background-color: black;
+    width: 300px;
+    margin: 0 20px 0 20px;
+}
+
 .downtown{
     background-color: black;
     width: 300px;
