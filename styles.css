@@ -5,6 +5,8 @@ body{
      font-size: 22px; 
     opacity: 0.9;
     text-align: center;
+    display: flex;
+    flex-direction: column;
     
 }
 img{
@@ -47,17 +49,20 @@ header h2{
 }
 
 .bannerCont{
+    background-image: url('./img-mission-background.webp');
     top: 62px;
     position: relative;    
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 500px;
+    width: 1200px;
+    margin: 0 auto;
 }
 .mission{
    width: 100%;
     background-color: black;
-    position: absolute;
-    
+   
 }
 
  .banner{
@@ -77,11 +82,15 @@ header h2{
    position: relative;
    top: 70px;
    display: flex;
-   flex-basis: 1000px;
-   justify-content: space-around;
+   width: 1000px;
+   justify-content: center;
    flex-wrap: wrap;
+   align-self: center;
    
 } 
+.thumb{
+    margin: 15px;
+}
 .fivethings h4{
     margin-top: 10px;
 }
