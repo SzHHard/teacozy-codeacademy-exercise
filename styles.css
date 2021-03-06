@@ -50,7 +50,7 @@ header h2{
 
 .bannerCont{
     background-image: url('./img-mission-background.webp');
-    top: 62px;
+    margin-top: 62px;
     position: relative;    
     display: flex;
     justify-content: center;
@@ -74,13 +74,14 @@ header h2{
 }
 
 .TeaOftheMonth{
+    margin-top: 30px;
     position: relative;
-   top: 70px;
+   
 }
 
  .fivethings{
    position: relative;
-   top: 70px;
+   
    display: flex;
    width: 1000px;
    justify-content: center;
@@ -96,23 +97,17 @@ header h2{
 }
 
 .locations{
+    
     position: relative;
-    margin: 0 auto;
+    margin: 60px auto 0 auto;
     flex-direction: column;
-    top: 150px;
+    
     width: 1200px;
     height: 500px;
     background-image: url('img-locations-background.webp') ;
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    /* display: flex;
-   justify-content: space-around;
-   align-items: center;
-   
-    
-    width: 1200px;
-    margin: 0 auto; */
 }
 
 .locations h2{
@@ -148,4 +143,11 @@ align-items: center;;
     width: 300px;
     background-color: black;
     
+}
+
+footer .copyright{
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 30px;
+
 }
